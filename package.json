@@ -1,0 +1,28 @@
+{
+  "name": "custom-apis",
+  "version": "1.0.0",
+  "description": "API simple para la gestión de usuarios y publicaciones",
+  "keywords": [
+    "api",
+    "fastify",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "xaneez.com",
+  "type": "module",
+  "main": "startup.js",
+  "scripts": {
+    "start": "node startup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@fastify/csrf-protection": "^7.1.0",
+    "@fastify/formbody": "^8.0.2",
+    "bcryptjs": "^3.0.2",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.2",
+    "mongoose": "^8.14.1"
+  }
+}
