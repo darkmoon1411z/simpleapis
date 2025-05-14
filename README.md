@@ -33,7 +33,7 @@ npm install
 
 ```env
 PORT=9600
-MONGO_URI=https://MONGO_URI
+MONGO_URI=mongodb://exampleUser:{pwd}@your-host/your-db-name
 MONGO_PWD=SUPER-SECRET-HERE
 ```
 
@@ -54,7 +54,7 @@ En esta sección estarán documentadas todas las acciones y rutas del servicio A
 URL de donde se realizarán las operaciones
 
 ```bash
-https://example.xaneez.com/
+https://simpleapis.xaneez.com/
 ```
 
 ---
